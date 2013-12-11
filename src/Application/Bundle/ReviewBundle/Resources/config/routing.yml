@@ -1,0 +1,7 @@
+application_review_homepage:
+    path:  /
+    defaults: { _controller: ApplicationReviewBundle:Default:index }
+
+application_review_save:
+    path:  /save
+    defaults: { _controller: ApplicationReviewBundle:Default:saveReview }

@@ -1,0 +1,7 @@
+parameters:
+#    application_review.example.class: Application\Bundle\ReviewBundle\Example
+
+services:
+#    application_review.example:
+#        class: %application_review.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

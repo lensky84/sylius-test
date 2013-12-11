@@ -42,3 +42,7 @@ facebook_login:
 
 google_login:
     pattern: /login/check-google
+
+application_review:
+    resource: "@ApplicationReviewBundle/Resources/config/routing.yml"
+    prefix: /review

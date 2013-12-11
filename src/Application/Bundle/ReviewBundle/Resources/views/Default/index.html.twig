@@ -1,0 +1,14 @@
+<div class="reviews">
+    <h3>Reviews</h3>
+    {% if reviews|length %}
+        <ul>
+            {% for review in reviews %}
+                <li>{{ review.text }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if app.user %}
+        {{ form(form) }}
+    {% endif %}
+</div>
+

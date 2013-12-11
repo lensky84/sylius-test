@@ -74,6 +74,9 @@ class AppKernel extends Kernel
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
             new Payum\Bundle\PayumBundle\PayumBundle(),
+            new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle(),
+            new Application\Bundle\ReviewBundle\ApplicationReviewBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
         );
 
         if (in_array($this->environment, array('dev'))) {
